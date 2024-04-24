@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL của trang bạn muốn kéo dữ liệu
-url = 'URL_CỦA_TRANG_WEB'
+url = 'https://1688.com'
 
 # Gửi yêu cầu HTTP đến URL
 response = requests.get(url)
