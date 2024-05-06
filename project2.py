@@ -19,4 +19,4 @@ if response.status_code == 200:
     for product in product_names:
         print(product.text)
 else:
-    print('Không thể lấy dữ liệu từ URL')
+    print('Không thể lấy dữ liệu từ URL nhé')
